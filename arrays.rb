@@ -20,3 +20,13 @@ floats.unshift (0.0)
 # in this case, length is stating the number of elements in "booleans"
 # which is 4
 booleans.length
+
+# if i want to get the first element in an array, i could optain it by
+# using the 0th element of an array
+puts strings[0]
+
+# delete will delete any stated element in any stated array
+strings.delete(2)
+# to demonstrate
+puts strings.length
+
